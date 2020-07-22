@@ -15,8 +15,8 @@ class MyListTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
         leading: Icon(listTileIcon),
-        title: new Text(title),
-        subtitle: new Text(subtitle),
+        title: Text(title),
+        subtitle: Text(subtitle),
         onTap: onTap);
   }
 }
