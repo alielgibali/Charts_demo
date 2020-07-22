@@ -19,56 +19,48 @@ class Home extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'Simple Chart',
             subtitle: 'this is simple chart',
             onTap: () =>
                 Navigator.of(context).pushNamed(SimpleBarChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'Stacked Bar  Chart',
             subtitle: 'this is Stacked Bar  chart',
             onTap: () =>
                 Navigator.of(context).pushNamed(StackedBarChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'GroupedBar Chart',
             subtitle: 'this is GroupedBar Bar  chart',
             onTap: () =>
                 Navigator.of(context).pushNamed(GroupedBarChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'HorizontalBar Chart',
             subtitle: 'this is HorizontalBar  chart',
             onTap: () =>
                 Navigator.of(context).pushNamed(HorizontalBarChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'HorizontalPatternForwardHatchBarChart',
             subtitle: 'this is HorizontalPatternForwardHatchBar chart',
             onTap: () => Navigator.of(context)
                 .pushNamed(HorizontalPatternForwardHatchBarChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'SimpleTimeSeriesChart',
             subtitle: 'this is SimpleTimeSeries chart',
             onTap: () => Navigator.of(context)
                 .pushNamed(SimpleTimeSeriesChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'PointsLineChart',
             subtitle: 'this is PointsLine chart',
             onTap: () =>
                 Navigator.of(context).pushNamed(PointsLineChart.routeName),
           ),
           MyListTile(
-            listTileIcon: Icons.chat_bubble,
             title: 'SimpleSeriesLegend Chart',
             subtitle: 'this is SimpleSeriesLegend chart',
             onTap: () =>
